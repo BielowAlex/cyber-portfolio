@@ -5,9 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport"  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/swiper@9.0.5/swiper-bundle.min.css?_v=20230222210151" rel="stylesheet">
-    <link rel="stylesheet" href="./res/styles/style.min.css?_v=20230222210151">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css?_v=20230222210151" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--    seo   -->
+    <meta name="description" content="Hi my name is Alexander I'm beginner frontend dev .For the last two years I study at university abroad on computer science. In parallel, I study on Frontend|Backend courses from Octen and study English with a tutor.Every day I studying something new and practice creating sites , from regular lendings to multipage in React/Redux...">
+    <meta name="keywords" content="portfolio,project,js,javascript,alexbielow,reactJS,typescript,IT,frontend,nodeJS">
+    <meta name="Author" content="Oleksandr Drohomyretskyi | AlexBielow">
+    <meta name="Copyright" content="Oleksandr Drohomyretskyi | AlexBielow">
+    <!--  openGraph  -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//bielowalex.github.io">
+    <meta property="og:title" content="AlexBielow | Frontend Developer">
+    <meta property="og:site_name" content="AlexBielow | Frontend Developer">
+    <meta property="og:description"
+          content="Hi my name is Alexander I'm beginner frontend dev. For the last two years I study at university abroad on computer science. In parallel, I study on Frontend|Backend courses from Octen and study English with a tutor.Every day I studying something new and practice creating sites , from regular lendings to multipage in React/Redux...">
+    <meta property="og:image" content="https://bielowalex.github.io/res/images/portfolio.png">
+    <meta name="twitter:card" content="summary_large_image" >
+    <meta name="twitter:image" content="https://bielowalex.github.io/res/images/portfolio.png" >
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9.0.5/swiper-bundle.min.css?_v=20230223223345" rel="stylesheet">
+    <link rel="stylesheet" href="./res/styles/style.min.css?_v=20230223223345">
+    <link rel="icon" href="./res/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css?_v=20230223223345" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>AlexBielow | Portfolio</title>
 </head>
 <body>
@@ -35,22 +51,34 @@
     <div class="container header-container">
         <div class="logo">
             <a href="/" class="logo-link">
-                <span class="sharp">Alex</span>Bielow
+                <span class="sharp"><i class="fa-solid fa-code"></i>  Alex</span>Bielow
             </a>
         </div>
         <nav class="header-nav">
             <ul class="header-nav__list">
                 <li class="header-nav__item">
-                    <a href="#hero" class="header-nav__link"><span class="sharp">#</span>home</a>
+                    <div class="header-nav__wrapper">
+                        <a href="#hero" class="header-nav__link"><span class="sharp">#</span>home</a>
+                        <a href="#hero" class="header-nav__link"><span class="sharp">#</span>home</a>
+                    </div>
                 </li>
                 <li class="header-nav__item">
-                    <a href="#works" class="header-nav__link"><span class="sharp">#</span>works</a>
+                    <div class="header-nav__wrapper">
+                        <a href="#works" class="header-nav__link"><span class="sharp">#</span>works</a>
+                        <a href="#works" class="header-nav__link"><span class="sharp">#</span>works</a>
+                    </div>
                 </li>
                 <li class="header-nav__item">
-                    <a href="#about" class="header-nav__link"><span class="sharp">#</span>about-me</a>
+                    <div class="header-nav__wrapper">
+                        <a href="#about" class="header-nav__link"><span class="sharp">#</span>about-me</a>
+                        <a href="#about" class="header-nav__link"><span class="sharp">#</span>about-me</a>
+                    </div>
                 </li>
                 <li class="header-nav__item">
-                    <a href="#contact" class="header-nav__link"><span class="sharp">#</span>contacts</a>
+                    <div class="header-nav__wrapper">
+                        <a href="#contact" class="header-nav__link"><span class="sharp">#</span>contacts</a>
+                        <a href="#contact" class="header-nav__link"><span class="sharp">#</span>contacts</a>
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -504,6 +532,41 @@
                 </div>
             </div>
         </div>
+        <div class="carrousel">
+  <div class="carrousel-title">
+    <div class="carrousel-title__text">Technologies I had experience working with:</div>
+<!--    <div class="carrousel-title__drag">-->
+<!--        <span class="carrousel-title__drag-text">Drag</span>-->
+<!--        <span class="carrousel-title__drag-text">Drag</span>-->
+<!--    </div>-->
+  </div>
+    <ul class="carrousel-wrapper ">
+        <li class="carrousel-list ">
+            <div class="carrousel-item"><i class="fa-brands fa-js"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-sass"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-html5"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-react"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-node"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-gulp"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-java"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-npm"></i></div>
+        </li>
+        <li class="carrousel-list ">
+            <div class="carrousel-item"><i class="fa-brands fa-js"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-sass"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-html5"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-react"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-node"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-gulp"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-java"></i></div>
+            <div class="carrousel-item"><i class="fa-brands fa-npm"></i></div>
+        </li>
+    </ul>
+</div>
     </div>
 </section>
         <section class="contact" id="contact">
@@ -573,7 +636,7 @@
                 <div class="footer-contact__head">
                     <div class="logo">
                         <a href="/" class="logo-link">
-                            <span class="sharp">Alex</span>Bielow |
+                            <span class="sharp"><i class="fa-solid fa-code"></i>  Alex</span>Bielow |
                         </a>
                     </div>
                     <a href="mailto:drohomyretskyi.oleksandr@gmail.com" class="footer-contact__email">drohomyretskyi.oleksandr@gmail.com</a>
@@ -605,13 +668,13 @@
     </div>
 </footer>
 </div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js?_v=20230222210151">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js?_v=20230223223345">
 </script>
 <script type="text/javascript">
     (function () {
         emailjs.init("ctqj7GY5vzVNEDoWI");
     })();
 </script>
-<script src="./res/scripts/app.min.js?_v=20230222210151"></script>
+<script src="./res/scripts/app.min.js?_v=20230223223345"></script>
 </body>
 </html>
